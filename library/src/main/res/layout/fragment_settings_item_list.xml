@@ -12,7 +12,7 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="@dimen/content_divider_size"
-        android:background="?android:attr/listDivider" />
+        android:background="?attr/divider_list" />
 
     <TextView
         android:id="@+id/title"
@@ -25,7 +25,7 @@
         android:layout_marginEnd="@dimen/content_margin"
         android:drawablePadding="@dimen/content_margin"
         android:gravity="center_vertical"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/primaryText"
         android:textSize="@dimen/text_content_header"
         fontPath="fonts/Font-Medium.ttf"/>
 
@@ -50,7 +50,7 @@
                 android:id="@+id/subtitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="?android:attr/textColorPrimary"
+                android:textColor="@color/primaryText"
                 android:textSize="@dimen/text_content_title"
                 fontPath="fonts/Font-Regular.ttf"/>
 
@@ -58,7 +58,7 @@
                 android:id="@+id/content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/secondaryText"
                 android:textSize="@dimen/text_content"
                 fontPath="fonts/Font-Regular.ttf"/>
 

@@ -36,7 +36,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="@dimen/content_margin"
                 android:layout_marginStart="@dimen/content_margin"
-                android:textColor="?android:attr/textColorPrimary"
+                android:textColor="@color/primaryText"
                 fontPath="fonts/Font-Medium.ttf"/>
 
             <TextView
@@ -47,7 +47,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="@dimen/content_margin"
                 android:layout_marginStart="@dimen/content_margin"
-                android:textColor="?android:attr/textColorSecondary"
+                android:textColor="@color/secondaryText"
                 fontPath="fonts/Font-Regular.ttf"/>
 
         </LinearLayout>
@@ -76,7 +76,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="@dimen/content_margin"
             android:layout_marginStart="@dimen/content_margin"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/primaryText"
             fontPath="fonts/Font-Medium.ttf"/>
 
     </LinearLayout>

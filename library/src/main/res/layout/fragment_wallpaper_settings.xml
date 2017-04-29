@@ -44,7 +44,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginRight="6dp"
                     android:layout_marginEnd="6dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/primaryText"
                     fontPath="fonts/Font-Medium.ttf"/>
 
                 <TextView
@@ -57,7 +57,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginRight="6dp"
                     android:layout_marginEnd="6dp"
-                    android:textColor="?android:attr/textColorSecondary"
+                    android:textColor="@color/secondaryText"
                     fontPath="fonts/Font-Regular.ttf"/>
 
             </LinearLayout>
@@ -97,7 +97,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginRight="6dp"
                     android:layout_marginEnd="6dp"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/primaryText"
                     fontPath="fonts/Font-Medium.ttf"/>
 
                 <TextView
@@ -110,7 +110,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginRight="6dp"
                     android:layout_marginEnd="6dp"
-                    android:textColor="?android:attr/textColorSecondary"
+                    android:textColor="@color/secondaryText"
                     fontPath="fonts/Font-Regular.ttf"/>
 
             </LinearLayout>

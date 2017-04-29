@@ -50,7 +50,7 @@
             android:layout_marginEnd="@dimen/content_margin"
             android:gravity="center_horizontal"
             android:text="@string/about_title"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/primaryText"
             android:textSize="@dimen/text_title"
             fontPath="fonts/Font-Medium.ttf"/>
 
@@ -65,7 +65,7 @@
             android:layout_marginEnd="@dimen/content_margin"
             android:paddingTop="@dimen/content_padding"
             android:gravity="center_horizontal"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="@color/secondaryText"
             android:textSize="@dimen/text_content"
             fontPath="fonts/Font-Regular.ttf"/>
 

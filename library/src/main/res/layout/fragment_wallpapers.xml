@@ -44,7 +44,7 @@
         android:layout_margin="@dimen/content_margin"
         android:textSize="@dimen/text_content_subtitle"
         android:visibility="gone"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/primaryText"
         fontPath="fonts/Font-Medium.ttf" />
 
     <com.rafakob.drawme.DrawMeButton

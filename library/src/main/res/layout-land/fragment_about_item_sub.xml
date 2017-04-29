@@ -27,7 +27,7 @@
             android:padding="@dimen/content_margin"
             android:drawablePadding="@dimen/content_margin"
             android:gravity="center_vertical"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/primaryText"
             android:textSize="@dimen/text_content_title"
             android:background="?attr/selectableItemBackground"
             android:theme="@style/ButtonStyle"

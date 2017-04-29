@@ -20,7 +20,7 @@
         android:paddingStart="@dimen/content_margin"
         android:paddingRight="@dimen/content_margin"
         android:paddingEnd="@dimen/content_margin"
-        android:textColor="?android:attr/textColorPrimary"
+        android:textColor="@color/primaryText"
         android:textSize="@dimen/text_content_subtitle"
         fontPath="fonts/Font-Regular.ttf"/>
 
@@ -32,7 +32,7 @@
         android:paddingStart="@dimen/content_margin"
         android:paddingRight="@dimen/content_margin"
         android:paddingEnd="@dimen/content_margin"
-        android:textColor="?android:attr/textColorSecondary"
+        android:textColor="@color/secondaryText"
         android:textSize="@dimen/text_content"
         fontPath="fonts/Font-Regular.ttf"/>
 

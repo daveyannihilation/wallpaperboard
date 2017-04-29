@@ -35,7 +35,7 @@
         <activity android:name=".activities.WallpaperBoardCrashReport"
             android:launchMode="singleInstance"
             android:noHistory="true"
-            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+            android:theme="@style/Theme.AppCompat.Dialog" />
 
         <activity android:name=".activities.WallpaperBoardPreviewActivity"
             android:launchMode="singleTop"

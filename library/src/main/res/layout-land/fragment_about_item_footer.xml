@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="@string/about_dashboard"
             android:textSize="@dimen/text_content_title"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/primaryText"
             fontPath="fonts/Font-Medium.ttf"/>
 
         <TextView
@@ -35,7 +35,7 @@
             android:layout_marginTop="@dimen/content_padding"
             android:text="@string/about_dashboard_dev"
             android:textSize="@dimen/text_content"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="@color/primaryText"
             fontPath="fonts/Font-Regular.ttf"/>
 
         <LinearLayout

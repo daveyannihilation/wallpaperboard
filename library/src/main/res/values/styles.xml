@@ -1,8 +1,9 @@
 <resources>
 
     <!-- Base Application Theme -->
-    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat">
         <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
     <!-- Base Application Theme -->
@@ -42,6 +43,8 @@
         <item name="md_link_color">@color/colorAccent</item>
         <item name="md_widget_color">@color/colorAccent</item>
         <item name="md_item_color">@color/primaryText</item>
+
+        <item name="android:windowShowWallpaper">true</item>
     </style>
 
     <!-- App Theme Dark -->
@@ -99,6 +102,7 @@
 
     <!-- Muzei Theme -->
     <style name="MuzeiTheme" parent="AppTheme">
+        <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@color/mainBackground</item>
     </style>
 
@@ -118,17 +122,17 @@
     </style>
 
     <style name="ButtonStyle">
-        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondaryText</item>
         <item name="colorControlHighlight">?attr/ripple_color</item>
     </style>
 
     <style name="AccentButtonStyle">
-        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondaryText</item>
         <item name="colorControlHighlight">?attr/ripple_accent</item>
     </style>
 
     <style name="CheckBoxStyle">
-        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="colorControlNormal">@color/secondaryText</item>
         <item name="colorControlActivated">?attr/colorAccent</item>
     </style>
 
